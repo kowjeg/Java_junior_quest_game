@@ -1,0 +1,104 @@
+/* Общие стили для body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Контейнер для страницы с квестом */
+.container {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.gameover {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.info_text {
+
+    max-width: 900px;
+    font-size: 22px;
+
+    background-color: white;
+
+    margin: 0 auto;
+}
+/* Заголовок страницы */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+/* Центрирование текста в абзацах */
+.center {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+}
+
+/* Стили для формы */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+
+/* Стиль для радиокнопок */
+.radio-option {
+    font-size: 18px; /* Увеличиваем шрифт для вариантов */
+    color: #555;
+    margin-left: 20px; /* Сдвиг вариантов влево */
+}
+
+/* Кнопка */
+.submit-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px; /* Установим фиксированную ширину кнопки */
+    align-self: flex-start; /* Выравнивание кнопки по левому краю */
+}
+
+.submit-btn:hover {
+    background-color: #0b7dda;
+}
+
+/* Ссылки на страницы */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0b7dda;
+}
